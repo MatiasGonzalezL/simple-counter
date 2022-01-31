@@ -10,3 +10,29 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+body{
+    background-color: black;
+}
+.bigDiv{
+    display: flex;
+    font-size: 120px;
+    color: white;
+    background-color: black;
+    width:100%;
+    margin-top:100px;
+    justify-content: center;
+    padding-top:20px;
+    padding-bottom:20px;
+}
+.bigDiv :first-child{
+    padding-left:10px;
+}
+.bigDiv :last-child{
+    padding-right:10px;
+}
+.bigDiv > div{
+    margin: 10px;
+    padding-right:15px;
+    padding-left:15px;
+    background-color: #101010;
+}
